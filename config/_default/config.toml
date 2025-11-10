@@ -13,7 +13,7 @@ copyright = "&copy;&nbsp;{year}"
 #timeout = 10000 # Default: 10000 (10s)
 enableEmoji = true
 # TODO: seems like can't have this param defined in taxonomy code?
-paginate = 12 # Default 10
+paginatation.pagerSize = 12 # Default 10
 
 #pluralizeListTitles = false
 #enableGitInfo = false # Default: false
