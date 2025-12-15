@@ -1,17 +1,27 @@
 [[themes]]
   name = "root"
+  label = "Roots"
   chroma = "dracula"
   chroma_background = "darkcode"
   app_color = "#403E41"
   tile_color = "#FCFCFA"
 [[themes]]
   name = "twotone"
+  label = "2-Tone (light)"
+  chroma = "dracula"
+  chroma_background = "darkcode"
+  app_color = "#403E41"
+  tile_color = "#FCFCFA"
+[[themes]]
+  name = "twotone_dark"
+  label = "2-Tone (dark)"
   chroma = "dracula"
   chroma_background = "darkcode"
   app_color = "#403E41"
   tile_color = "#FCFCFA"
 [[themes]]
   name = "vintage"
+  label = "Vintage"
   chroma = "dracula"
   chroma_background = "darkcode"
   app_color = "#403E41"

@@ -1,16 +1,24 @@
 /* main colors */
-$pure-black: black;
-$pure-white: white;
+$pure-black: #0f0f0f;
+$pure-white: #f1f1f1;
 $light-black: lighten($pure-black, 20%);
 $light-light-black: lighten($pure-black, 40%);
 $dark-white: darken($pure-white, 10%);
 $dark-dark-white: darken($pure-white, 25%);
 $transparent-black: rgba($pure-black, .75);
 
+$burgundy: #800020;
+/*$burgundy: #901030;*/
+$light-burgundy: lighten($burgundy, 10%);
+
 $twotone: (
+    /* fonts */
+    title-font: ("BebasNeue", serif),
+    content-font: ("Archivo", serif),
+
     /* global/general */
-    link: $light-black, 
-    link-hover: $pure-black,
+    link: $pure-black, 
+    link-hover: $light-burgundy,
     hr-color: $pure-black,
 
     selection-color: $pure-white,
@@ -22,125 +30,127 @@ $twotone: (
 
     /* 'button' shortcode */
     button-default-color: $pure-black,
-    button-default-hover-color: $pure-black,
-    button-default-background-color: $dark-white,
-    button-default-background-hover-color: $dark-dark-white,
-    button-default-border-color: $light-black,
+    button-default-hover-color: $light-burgundy,
+    button-default-background-color: $pure-white,
+    button-default-background-hover-color: $pure-white,
+    button-default-border-color: $pure-black,
     button-default-border-hover-color: $pure-black,
     button-primary-color: $pure-white,
-    button-primary-hover-color: $pure-white,
-    button-primary-background-color: $light-black,
-    button-primary-background-hover-color: $light-light-black,
-    button-primary-border-color: $dark-white,
+    button-primary-hover-color: $light-burgundy,
+    button-primary-background-color: $pure-black,
+    button-primary-background-hover-color: $pure-black,
+    button-primary-border-color: $pure-white,
     button-primary-border-hover-color: $pure-white,
 
     custom-scrollbar-foreground-color: $pure-white,
     custom-scrollbar-background-color: $pure-black,
 
-    footer-color: $dark-dark-white,
+    footer-color: $pure-white,
     footer-background-color: $pure-black,
-    footer-link-color: $dark-white,
-    footer-link-hover-color: white,
-    footer-hr-color: $dark-white,
+    footer-link-color: $pure-white,
+    footer-link-hover-color: $light-burgundy,
+    footer-hr-color: $pure-white,
 
-    gtt-color: $light-black,
-    gtt-hover-color: $pure-black,
-    gtt-background-color: $dark-white,
+    gtt-color: $pure-black,
+    gtt-hover-color: $light-burgundy,
+    gtt-background-color: $pure-white,
     gtt-background-hover-color: $pure-white,
 
-    figcaption-color: $dark-white,
+    figcaption-color: $pure-white,
     figcaption-background-color: $transparent-black,
 
-    meta-color: $light-black,
+    meta-color: $pure-black,
 
     /* taxonomies */
-    taxo-title-color: $light-black,
-    taxo-active-color: $pure-black,
-    taxo-num-color: $dark-white,
+    taxo-title-color: $pure-black,
+/*    taxo-active-color: $pure-black,*/
+//?
+    taxo-active-color: $light-burgundy,
+    taxo-num-color: $pure-white,
     taxo-num-background-color: $pure-black,
-    taxo-tags-color: $dark-white,
-    taxo-tags-background-color: $light-black,
-    taxo-categories-color: $dark-white,
-    taxo-categories-background-color: $light-black,
-    taxo-series-color: $dark-white,
-    taxo-series-background-color: $light-black,
+    taxo-tags-color: $pure-white,
+    taxo-tags-background-color: $pure-black,
+    taxo-categories-color: $pure-white,
+    taxo-categories-background-color: $pure-black,
+    taxo-series-color: $pure-white,
+    taxo-series-background-color: $pure-black,
     /* 'sections' & 'authors' */
-    taxo-filter-color: $dark-white,
-    taxo-filter-background-color: $light-black,
+    taxo-filter-color: $pure-white,
+    taxo-filter-background-color: $pure-black,
 
-    social-icon-color: $dark-white,
-    social-icon-hover-color: $pure-white,
+    social-icon-color: $pure-white,
+    social-icon-hover-color: $light-burgundy,
 
-    sidebar-title-color: $light-black,
-    sidebar-title-hover-color: $pure-black,
-    sidebar-li-color: $light-black,
-    sidebar-li-hover-color: $pure-black,
+    sidebar-title-color: $pure-black,
+    sidebar-title-hover-color: $light-burgundy,
+    sidebar-li-color: $pure-black,
+    sidebar-li-hover-color: $light-burgundy,
 
     /* sidebar toc */
     toc-title-color: $pure-black,
-    toc-label-color: $light-black,
+    toc-label-color: $pure-black,
     toc-label-active-color: $pure-black,
 
     /* sidebar bio */
-    bio-color: $light-black,
+    bio-color: $pure-black,
     bio-name-color: $pure-black,
-    bio-social-icon-color: $light-black,
-    bio-social-icon-hover-color: $pure-black,
+    bio-social-icon-color: $pure-black,
+    bio-social-icon-hover-color: $light-burgundy,
 
     /* navigation bar (top) */
     navbar-background-color: $pure-black,
-    navbar-border-bottom-color: $light-black,
-    navbar-title-color: $dark-white,
-    navbar-title-hover-color: $pure-white,
-    navbar-title-active-color: $dark-white,
+    navbar-border-bottom-color: $pure-black,
+    navbar-title-color: $pure-white,
+    navbar-title-hover-color: $light-burgundy,
+    navbar-title-active-color: $light-burgundy,
     navbar-border-top-color: $pure-black,
     navbar-menu-item-hover-background-color: $pure-white,
-    navbar-menu-item-hover-color: $pure-black,
-    navbar-menu-item-active-background-color: $light-black,
-    burger-menu-color: $dark-white,
+    navbar-menu-item-hover-color: $light-burgundy,
+    navbar-menu-item-active-background-color: $pure-black,
+    burger-menu-color: $pure-white,
 
     /* header slides */
     header-title-color-default: $pure-black, // reverse?
-    header-title-shadow-color-default: $dark-white,
-    header-subtitle-color-default: $dark-white,
+    header-title-shadow-color-default: $pure-white,
+    header-subtitle-color-default: $pure-white,
     header-subtitle-shadow-color-default: $pure-black,
 
     /* home slide */
     featured-background-color: $transparent-black,
-    featured-title-color: $dark-white,
-    featured-title-hover-color: $pure-white,
-    featured-content-color: $dark-white,
+    featured-title-color: $pure-white,
+    featured-title-hover-color: $light-burgundy,
+    featured-content-color: $pure-white,
     featured-button-background-color: $transparent-black,
     featured-button-background-hover-color: $pure-black,
-    featured-button-color: $dark-white,
-    featured-button-hover-color: $pure-white,
+    featured-button-color: $pure-white,
+    featured-button-hover-color: $light-burgundy,
 
     /* breadcrumb (path) */
     breadcrumb-background-color: $pure-black,
-    breadcrumb-item-color: $dark-dark-white,
-    breadcrumb-item-active-color: $pure-white,
-    breadcrumb-item-hover-color: $pure-white,
+    breadcrumb-item-color: $pure-white,
+    breadcrumb-item-active-color: $light-burgundy,
+    breadcrumb-item-hover-color: $light-burgundy,
 
     /* single post */
-    single-hr-background-color: $light-black,
-    single-blockquote-border-color: $dark-white,
+    single-hr-background-color: $pure-black,
+    single-blockquote-border-color: $pure-white,
     single-header-title-color: $pure-black,
-    single-contents-title-color: $light-black,
-    single-contents-subtitle-color: $light-black,
+    single-contents-title-color: $pure-black,
+    single-contents-subtitle-color: $pure-black,
 
-    toc-header-background-color: $dark-white,
-    toc-header-background-hover-color: $dark-dark-white,
-    toc-body-background-color: $dark-dark-white,
+    toc-header-background-color: $pure-white,
+    toc-header-background-hover-color: $pure-white,
+    toc-body-background-color: $pure-white,
 
     content-box-border-color: $pure-black,
-    content-box-background-color: $dark-white,
+    content-box-background-color: $pure-white,
 
     share-color: $pure-white,
     share-shadow-color: $pure-black,
-    share-background-color: $light-black,
+    share-background-color: $pure-black,
     action-color: $pure-black,
     action-shadow-color: $pure-black,
-    action-background-color: $dark-white,
+    action-background-color: $pure-white,
     action-popup-background-color: $pure-white,
     action-popup-color: $pure-black,
     action-popup-border-color: $pure-black,
@@ -152,30 +162,30 @@ $twotone: (
     /* taxonomy pages */
     terms-title-color: $pure-black,
     terms-title-shadow-color: transparent,
-    terms-tags-color: $light-black,
-    terms-categories-color: $light-black,
-    terms-series-color: $light-black,
+    terms-tags-color: $pure-black,
+    terms-categories-color: $pure-black,
+    terms-series-color: $pure-black,
     terms-len-color: $pure-black,
 
     /* search page */
-    switch-background-color: $light-black,
-    switch-button-color: $dark-white,
-    switch-active-color: $dark-dark-white,
+    switch-background-color: $pure-black,
+    switch-button-color: $pure-white,
+    switch-active-color: $pure-black,
 
     /* pagination */
-    pagination-background-color: $dark-white,
-    pagination-number-color: $light-black,
-    pagination-number-hover-color: $pure-black,
-    pagination-number-active-color: $pure-black,
+    pagination-background-color: $pure-white,
+    pagination-number-color: $pure-black,
+    pagination-number-hover-color: $light-burgundy,
+    pagination-number-active-color: $light-burgundy,
 /* TODO: unused...? => check code in 'pagination' */
 /*    pagination-disabled-color: yellow,*/
 
     tiles-background-color: $pure-white,
-    tiles-mask-background-color: $dark-white,
+    tiles-mask-background-color: $pure-white,
 
     gallery-title-color: $pure-black,
     gallery-title-shadow-color: transparent,
-    gallery-mask-background-color: $dark-white,
+    gallery-mask-background-color: $pure-white,
     gallery-link: $pure-black,
 
 /* TODO: 'archive' currently not handled */
@@ -207,16 +217,16 @@ $twotone: (
     e404-title-shadow-color: transparent,
 
     /* 'alert' shortcode */
-    alert-info-background-color: $dark-white,
+    alert-info-background-color: $pure-white,
     alert-info-text-color: $pure-black,
     alert-info-border-color: blue,
-    alert-success-background-color: $dark-dark-white,
+    alert-success-background-color: $pure-white,
     alert-success-text-color: $pure-black,
     alert-success-border-color: green,
-    alert-warning-background-color: $light-light-black,
+    alert-warning-background-color: $pure-black,
     alert-warning-text-color: $pure-white,
     alert-warning-border-color: yellow,
-    alert-danger-background-color: $light-black,
+    alert-danger-background-color: $pure-black,
     alert-danger-text-color: $pure-white,
     alert-danger-border-color: red,
 

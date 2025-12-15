@@ -1,0 +1,235 @@
+/* main colors */
+$pure-white: #f1f1f1;
+$pure-black: #0f0f0f;
+$light-white: darken($pure-white, 20%);
+$light-light-white: darken($pure-white, 40%);
+$dark-black: lighten($pure-black, 10%);
+$dark-dark-black: lighten($pure-black, 25%);
+$transparent-white: rgba($pure-white, .75);
+
+$burgundy: #800020;
+/*$light-burgundy: #901030;*/
+$light-burgundy: lighten($burgundy, 10%);
+
+$twotone_dark: (
+    /* fonts */
+    title-font: ("BebasNeue", serif),
+    content-font: ("Archivo", serif),
+
+    /* global/general */
+    link: $pure-white, 
+    link-hover: $light-burgundy,
+    hr-color: $pure-white,
+
+    selection-color: $pure-black,
+    selection-background-color: $pure-white,
+
+    backdrop-background-color: $pure-white,
+    body-background-color: $pure-black,
+    body-color: $pure-white,
+
+    /* 'button' shortcode */
+    button-default-color: $pure-white,
+    button-default-hover-color: $light-burgundy,
+    button-default-background-color: $pure-black,
+    button-default-background-hover-color: $pure-black,
+    button-default-border-color: $pure-white,
+    button-default-border-hover-color: $pure-white,
+    button-primary-color: $pure-black,
+    button-primary-hover-color: $light-burgundy,
+    button-primary-background-color: $pure-white,
+    button-primary-background-hover-color: $pure-white,
+    button-primary-border-color: $pure-black,
+    button-primary-border-hover-color: $pure-black,
+
+    custom-scrollbar-foreground-color: $pure-black,
+    custom-scrollbar-background-color: $pure-white,
+
+    footer-color: $pure-black,
+    footer-background-color: $pure-white,
+    footer-link-color: $pure-black,
+    footer-link-hover-color: $light-burgundy,
+    footer-hr-color: $pure-black,
+
+    gtt-color: $pure-white,
+    gtt-hover-color: $light-burgundy,
+    gtt-background-color: $pure-black,
+    gtt-background-hover-color: $pure-black,
+
+    figcaption-color: $pure-black,
+    figcaption-background-color: $transparent-white,
+
+    meta-color: $pure-white,
+
+    /* taxonomies */
+    taxo-title-color: $pure-white,
+/*    taxo-active-color: $pure-white,*/
+//?
+    taxo-active-color: $light-burgundy,
+    taxo-num-color: $pure-black,
+    taxo-num-background-color: $pure-white,
+    taxo-tags-color: $pure-black,
+    taxo-tags-background-color: $pure-white,
+    taxo-categories-color: $pure-black,
+    taxo-categories-background-color: $pure-white,
+    taxo-series-color: $pure-black,
+    taxo-series-background-color: $pure-white,
+    /* 'sections' & 'authors' */
+    taxo-filter-color: $pure-black,
+    taxo-filter-background-color: $pure-white,
+
+    social-icon-color: $pure-black,
+    social-icon-hover-color: $light-burgundy,
+
+    sidebar-title-color: $pure-white,
+    sidebar-title-hover-color: $light-burgundy,
+    sidebar-li-color: $pure-white,
+    sidebar-li-hover-color: $light-burgundy,
+
+    /* sidebar toc */
+    toc-title-color: $pure-white,
+    toc-label-color: $pure-white,
+    toc-label-active-color: $pure-white,
+
+    /* sidebar bio */
+    bio-color: $pure-white,
+    bio-name-color: $pure-white,
+    bio-social-icon-color: $pure-white,
+    bio-social-icon-hover-color: $light-burgundy,
+
+    /* navigation bar (top) */
+    navbar-background-color: $pure-white,
+    navbar-border-bottom-color: $pure-white,
+    navbar-title-color: $pure-black,
+    navbar-title-hover-color: $light-burgundy,
+    navbar-title-active-color: $light-burgundy,
+    navbar-border-top-color: $pure-white,
+    navbar-menu-item-hover-background-color: $pure-black,
+    navbar-menu-item-hover-color: $light-burgundy,
+    navbar-menu-item-active-background-color: $pure-white,
+    burger-menu-color: $pure-black,
+
+    /* header slides */
+    header-title-color-default: $pure-white, // reverse?
+    header-title-shadow-color-default: $pure-black,
+    header-subtitle-color-default: $pure-black,
+    header-subtitle-shadow-color-default: $pure-white,
+
+    /* home slide */
+    featured-background-color: $transparent-white,
+    featured-title-color: $pure-black,
+    featured-title-hover-color: $light-burgundy,
+    featured-content-color: $pure-black,
+    featured-button-background-color: $transparent-white,
+    featured-button-background-hover-color: $pure-white,
+    featured-button-color: $pure-black,
+    featured-button-hover-color: $light-burgundy,
+
+    /* breadcrumb (path) */
+    breadcrumb-background-color: $pure-white,
+    breadcrumb-item-color: $pure-black,
+    breadcrumb-item-active-color: $light-burgundy,
+    breadcrumb-item-hover-color: $light-burgundy,
+
+    /* single post */
+    single-hr-background-color: $pure-white,
+    single-blockquote-border-color: $pure-black,
+    single-header-title-color: $pure-white,
+    single-contents-title-color: $pure-white,
+    single-contents-subtitle-color: $pure-white,
+
+    toc-header-background-color: $pure-black,
+    toc-header-background-hover-color: $pure-black,
+    toc-body-background-color: $pure-black,
+
+    content-box-border-color: $pure-white,
+    content-box-background-color: $pure-black,
+
+    share-color: $pure-black,
+    share-shadow-color: $pure-white,
+    share-background-color: $pure-white,
+    action-color: $pure-white,
+    action-shadow-color: $pure-white,
+    action-background-color: $pure-black,
+    action-popup-background-color: $pure-black,
+    action-popup-color: $pure-white,
+    action-popup-border-color: $pure-white,
+
+    /* list page */
+    list-title-color: $pure-white,
+    list-title-shadow-color: transparent,
+
+    /* taxonomy pages */
+    terms-title-color: $pure-white,
+    terms-title-shadow-color: transparent,
+    terms-tags-color: $pure-white,
+    terms-categories-color: $pure-white,
+    terms-series-color: $pure-white,
+    terms-len-color: $pure-white,
+
+    /* search page */
+    switch-background-color: $pure-white,
+    switch-button-color: $pure-black,
+    switch-active-color: $pure-white,
+
+    /* pagination */
+    pagination-background-color: $pure-black,
+    pagination-number-color: $pure-white,
+    pagination-number-hover-color: $light-burgundy,
+    pagination-number-active-color: $light-burgundy,
+/* TODO: unused...? => check code in 'pagination' */
+/*    pagination-disabled-color: yellow,*/
+
+    tiles-background-color: $pure-black,
+    tiles-mask-background-color: $pure-black,
+
+    gallery-title-color: $pure-white,
+    gallery-title-shadow-color: transparent,
+    gallery-mask-background-color: $pure-black,
+    gallery-link: $pure-white,
+
+/* TODO: 'archive' currently not handled */
+/*
+    // TODO: add 'archive-title-color' and 'archive-title-shadow-color'?
+    archive-key-color: #FCFCFA,
+    archive-type-color: #82aaff,
+    archive-meta-color: #aed581,
+    archive-key-background-color: #FF6188,
+    archive-type-background-color: #424242,
+    archive-hover-line-color: #FF6188,
+*/
+
+    about-title-color: $pure-white,
+    about-title-shadow-color: transparent,
+
+    contact-title-color: $pure-white,
+/* TODO: contact stuff... use form? */
+/*
+    contact-title-shadow-color: transparent,
+    contact-input-color: red,
+    contact-input-background-color: lighten(#009900, 5%),
+    contact-button-background-color: lighten(#009900, 5%),
+    contact-border-color: #1d1d1d,
+*/
+
+    e404-color: $pure-white,
+    e404-title-color: $pure-white,
+    e404-title-shadow-color: transparent,
+
+    /* 'alert' shortcode */
+    alert-info-background-color: $pure-black,
+    alert-info-text-color: $pure-white,
+    alert-info-border-color: blue,
+    alert-success-background-color: $pure-black,
+    alert-success-text-color: $pure-white,
+    alert-success-border-color: green,
+    alert-warning-background-color: $pure-white,
+    alert-warning-text-color: $pure-black,
+    alert-warning-border-color: yellow,
+    alert-danger-background-color: $pure-white,
+    alert-danger-text-color: $pure-black,
+    alert-danger-border-color: red,
+
+    /* custom variables (external to theme) */
+    sidedata-image: url(../images/checker.png),
+);
