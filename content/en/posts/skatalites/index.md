@@ -22,7 +22,7 @@ image: "images/logo.png"
 
 {{< image src="images/skatalites.webp" alt="Band original members" copyright="Skatalites">}}
 
-[The Skatalites](www.skatalites.com) was one of the first ska band. A superband formed in Jamaica by pioneering musicians and producers that helped develop and spread the genre across Jamaica and the world.
+*The Skatalites* was one of the first ska band. A superband formed in Jamaica by pioneering musicians and producers that helped develop and spread the genre across Jamaica and the world.
 
 Their sound defined the roots of Jamaican Ska, with its bouncy swing tempo, the jazzy brass and steady, skanking beat.
 ???"Mostly known for their instrumentals, they also had amazing vocalists."

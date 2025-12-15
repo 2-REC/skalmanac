@@ -13,9 +13,9 @@ header:
     paddingX: 0
     paddingY: 0
     title:
-      - "Ska et cetera"
+      - "The Ska Exploration Project"
     subtitle:
-      - Skankin' All The Way
+      - "From Roots to Rude"
     titleColor:
     titleShadow: true
     titleFontSize: 25%

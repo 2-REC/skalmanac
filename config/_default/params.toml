@@ -1,6 +1,6 @@
 # TODO: remove comments and 'default', only keep in theme's file (in 'exampleSite')
 #logoImage = "" # E.g.: "/logo/logo.png"
-logoText = "SkaEtc"
+#logoText = "The Ska Exploration Project"
 logoType = "short" # short (square image), long (rectangular images)
 description = "Ska et cetera"
 custom_css = []

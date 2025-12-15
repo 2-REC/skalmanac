@@ -1,5 +1,5 @@
 baseURL = "https://2-rec.github.io/diskavery/"
-title = "SkaDB"
+title = "Ska Project"
 theme = "hugo-myblog-theme"
 
 defaultContentLanguage = "en"
@@ -42,7 +42,7 @@ paginatation.pagerSize = 12 # Default 10
 
 [languages]
   [languages.en]
-    title = "Ska DB"
+    title = "Ska Project"
     languageName = "English"
     weight = 1
     contentdir = "content/en"
