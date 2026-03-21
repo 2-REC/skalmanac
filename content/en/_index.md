@@ -5,7 +5,7 @@ header:
   - type: single-image
     fit: image
     image:
-        src: images/header/background.png
+        src: images/header/band.jpg
         #caption: musicians
         #copyright: "2-REC"
     alignX: center

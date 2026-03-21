@@ -20,8 +20,8 @@
   app_color = "#403E41"
   tile_color = "#FCFCFA"
 [[themes]]
-  name = "vintage"
-  label = "Vintage"
+  name = "thirdwave"
+  label = "Third-Wave"
   chroma = "dracula"
   chroma_background = "darkcode"
   app_color = "#403E41"

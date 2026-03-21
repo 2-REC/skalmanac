@@ -1,21 +1,30 @@
+/* main colors */
+$black: #0f0f0f;
+$white: #f1f1f1;
+$red: #fA222A;
+$green: #047200;
+$light-green: #009900;
+$yellow: #f6d13a;
+
 $root: (
     /* fonts */
     title-font: ("RockinRecord", sans-serif),
-    content-font: ("EBGaramond", serif),
+    content-font: ("Roboto", serif),
 
     /* global/general */
-    link: #FFD866,
-    link-hover: #FF6188,
-    hr-color: #595B5C,
+    link: $yellow,
+    link-hover: $red,
+    hr-color: $yellow,
 
-    selection-color: #FCFCFA,
-    selection-background-color: #FF6188,
+    selection-color: $red,
+    selection-background-color: $yellow,
 
-    backdrop-background-color: #212121,
-    body-background-color: #2D2A2E,
-    body-color: #FCFCFA,
+    backdrop-background-color: $black,
+    body-background-color: $black,
+    body-color: $white,
 
     /* 'button' shortcode */
+/* TODO? */
     button-default-color: black,
     button-default-hover-color: black,
     button-default-background-color: darken(white, 15%),
@@ -29,110 +38,113 @@ $root: (
     button-primary-border-color: darken(white, 15%),
     button-primary-border-hover-color: white,
 
+/* TODO? */
     custom-scrollbar-foreground-color: #888,
     custom-scrollbar-background-color: #eee,
 
-    footer-color: #bdbdbd,
-    footer-background-color: #009900,
-    footer-link-color: lighten(#bdbdbd, 15%),
-    footer-link-hover-color: lighten(#bdbdbd, 30%),
-    footer-hr-color: lighten(#bdbdbd, 15%),
+    footer-color: $black,
+    footer-background-color: $green,
+    footer-link-color: $yellow,
+    footer-link-hover-color: $red,
+    footer-hr-color: $yellow,
 
-    gtt-color: #bdbdbd,
-    gtt-hover-color: #82aaff,
-    gtt-background-color: #009900,
-    gtt-background-hover-color: lighten(#009900, 5%),
+    gtt-color: $yellow,
+    gtt-hover-color: $red,
+    gtt-background-color: $light-green,
+    gtt-background-hover-color: $yellow,
 
-    figcaption-color: #bdbdbd,
-    figcaption-background-color: black,
+    figcaption-color: $white,
+    figcaption-background-color: $black,
 
-    meta-color: #FCFCFA,
+    meta-color: $green,
 
     /* taxonomies */
-    taxo-title-color: #bdbdbd,
-    taxo-active-color: #bdbdbd,
-    taxo-num-color: #FCFCFA,
-    taxo-num-background-color: #212121,
-    taxo-tags-color: #78DCE8,
-    taxo-tags-background-color: lighten(#212121, 13%),
-    taxo-categories-color: #AB9DF2,
-    taxo-categories-background-color: lighten(#212121, 13%),
-    taxo-series-color: #EA9C77,
-    taxo-series-background-color: lighten(#212121, 13%),
+    taxo-title-color: $yellow,
+    taxo-active-color: $red,
+    taxo-num-color: $yellow,
+    taxo-num-background-color: lighten($black, 10%),
+    taxo-tags-color: $yellow,
+    taxo-tags-background-color: $green,
+    taxo-categories-color: $yellow,
+    taxo-categories-background-color: $green,
+    taxo-series-color: $yellow,
+    taxo-series-background-color: $green,
     /* 'sections' & 'authors' */
-    taxo-filter-color: #EA9C77,
-    taxo-filter-background-color: lighten(#212121, 13%),
+    taxo-filter-color: $yellow,
+    taxo-filter-background-color: $green,
 
-    social-icon-color: #bdbdbd,
-    social-icon-hover-color: lighten(#bdbdbd, 20%),
+    social-icon-color: $yellow,
+    social-icon-hover-color: $red,
 
-    sidebar-title-color: #aed581,
-    sidebar-title-hover-color: lighten(#aed581, 15%),
-    sidebar-li-color: #FCFCFA,
-    sidebar-li-hover-color: lighten(#FCFCFA, 15%),
+    sidebar-title-color: $yellow,
+    sidebar-title-hover-color: $red,
+    sidebar-li-color: $yellow,
+    sidebar-li-hover-color: $red,
 
     /* sidebar toc */
-    toc-title-color: #90a4ae,
-    toc-label-color: #727072,
-    toc-label-active-color: lighten(#727072, 15%),
+    toc-title-color: $yellow,
+    toc-label-color: darken($yellow, 15%),
+    toc-label-active-color: $red,
 
     /* sidebar bio */
-    bio-color: black,
-    bio-name-color: black,
-    bio-social-icon-color: #bdbdbd,
-    bio-social-icon-hover-color: lighten(#bdbdbd, 20%),
+    bio-color: $black,
+    bio-name-color: $black,
+    bio-social-icon-color: $yellow,
+    bio-social-icon-hover-color: $red,
 
     /* navigation bar (top) */
-    navbar-background-color: #009900,
-    navbar-border-bottom-color: #4e4e4e,
-    navbar-title-color: #FCFCFA,
-    navbar-title-hover-color: #FFD866,
-    navbar-title-active-color: #FF6188,
-    navbar-border-top-color: #424242,
-    navbar-menu-item-hover-background-color: lighten(#009900, 5%),
-    navbar-menu-item-hover-color: #FFD866,
-    navbar-menu-item-active-background-color: #FF6188,
-    burger-menu-color: #FCFCFA,
+    navbar-background-color: $green,
+    navbar-border-bottom-color: $black,
+    navbar-title-color: $yellow,
+    navbar-title-hover-color: $red,
+    navbar-title-active-color: $black,
+    navbar-border-top-color: $black,
+    navbar-menu-item-hover-background-color: $yellow,
+    navbar-menu-item-hover-color: $red,
+    navbar-menu-item-active-background-color: $red,
+    burger-menu-color: $yellow,
 
     /* header slides */
-    header-title-color-default: #FFD866,
-    header-title-shadow-color-default: #212121,
-    header-subtitle-color-default: #FFD866,
-    header-subtitle-shadow-color-default: #212121,
+    header-title-color-default: $yellow,
+    header-title-shadow-color-default: $black,
+    header-subtitle-color-default: $red,
+    header-subtitle-shadow-color-default: $black,
 
     /* home slide */
-    featured-background-color: #00000077,
-    featured-title-color: darken(white, 15%),
-    featured-title-hover-color: white,
-    featured-content-color: white,
-    featured-button-background-color: #00000077,
-    featured-button-background-hover-color: black,
-    featured-button-color: darken(white, 15%),
-    featured-button-hover-color: white,
+    featured-background-color: #00000099,
+    featured-title-color: $yellow,
+    featured-title-hover-color: $red,
+    featured-content-color: $white,
+    featured-button-background-color: #00000099,
+    featured-button-background-hover-color: $black,
+    featured-button-color: darken($yellow, 15%),
+    featured-button-hover-color: $red,
 
     /* breadcrumb (path) */
-    breadcrumb-background-color: #009900,
-    breadcrumb-item-color: #FCFCFA,
-    breadcrumb-item-active-color: #bdbdbd,
-    breadcrumb-item-hover-color: #FFD866,
+    breadcrumb-background-color: lighten($green, 5%),
+    breadcrumb-item-color: darken($yellow, 15%),
+    breadcrumb-item-active-color: $yellow,
+    breadcrumb-item-hover-color: $red,
 
     /* single post */
     single-hr-background-color: #595B5C,
     single-blockquote-border-color: #FCFCFA,
-    single-header-title-color: #FCFCFA,
-    single-contents-title-color: #aed581,
-    single-contents-subtitle-color: #FCFCFA,
+    single-header-title-color: $red,
+    single-contents-title-color: $green,
+    single-contents-subtitle-color: darken($green, 5%),
 
-    toc-header-background-color: #009900,
-    toc-header-background-hover-color: #424242,
-    toc-body-background-color: #009900,
+    toc-header-background-color: $green,
+    toc-header-background-hover-color: $yellow,
+    toc-body-background-color: darken($green, 5%),
 
+/* TODO? */
     content-box-border-color: #616161,
     content-box-background-color: #009900,
 
-    share-color: #dbdbdb,
-    share-shadow-color: #888,
-    share-background-color: lighten(#009900, 2.5%),
+    share-color: $white,
+    share-shadow-color: $yellow,
+    share-background-color: $green,
+/* TODO? */
     action-color: black,
     action-shadow-color: black,
     action-background-color: #00FF0077,
@@ -141,33 +153,41 @@ $root: (
     action-popup-border-color: black,
 
     /* list page */
-    list-title-color: #ddd,
-    list-title-shadow-color: #009900,
+    list-title-color: $red,
+    list-title-shadow-color: $yellow,
 
     /* taxonomy pages */
-    terms-title-color: #ddd,
-    terms-title-shadow-color: #009900,
-    terms-tags-color: #78DCE8,
-    terms-categories-color: #AB9DF2,
-    terms-series-color: #EA9C77,
-    terms-len-color: #727072,
+    terms-title-color: $red,
+    terms-title-shadow-color: $yellow,
+    terms-tags-color: $yellow,
+    terms-categories-color: $yellow,
+    terms-series-color: $yellow,
+    terms-len-color: $yellow,
 
-    /* search page */
-    switch-background-color: #009900,
-    switch-button-color: #FCFCFA,
-    switch-active-color: #FF6188,
+    /* search */
+    pagefind-ui-text: $red, /* search icon + clear text */
+    pagefind-ui-background: $white, /* search bar */
+    pagefind-ui-border: $black, /* search bar */
+    pagefind-ui-font: ("Roboto", serif),
+
+    /* browse */
+    switch-background-color: $green,
+    switch-button-color: $yellow,
+    switch-active-color: $green,
 
     /* pagination */
-    pagination-background-color: #212121,
-    pagination-number-color: #FCFCFA,
-    pagination-number-hover-color: #82aaff,
-    pagination-number-active-color: #82aaff,
+    pagination-background-color: $green,
+    pagination-number-color: $yellow,
+    pagination-number-hover-color: $red,
+    pagination-number-active-color: $black,
 /* TODO: unused...? => check code in 'pagination' */
 /*    pagination-disabled-color: yellow,*/
 
+/* TODO? */
     tiles-mask-background-color: rgba(0, 0, 0, 0.7),
     tiles-background-color: rgba(0, 0, 0, 0.7),
 
+/* TODO */
     gallery-title-color: #FCFCFA,
     gallery-title-shadow-color: lighten(#009900, 5%),
     gallery-mask-background-color: rgba(0, 0, 0, 0.7),
@@ -184,24 +204,25 @@ $root: (
     archive-hover-line-color: #FF6188,
 */
 
-    about-title-color: #FCFCFA,
-    about-title-shadow-color: lighten(#009900, 5%),
+    about-title-color: $red,
+    about-title-shadow-color: $yellow,
 
-    contact-title-color: #FCFCFA,
+    contact-title-color: $red,
 /* TODO: contact stuff... use form? */
 /*
-    contact-title-shadow-color: lighten(#009900, 5%),
+    contact-title-shadow-color: $yellow,
     contact-input-color: #FCFCFA,
     contact-input-background-color: lighten(#009900, 5%),
     contact-button-background-color: lighten(#009900, 5%),
     contact-border-color: #1d1d1d,
 */
 
-    e404-color: white,
-    e404-title-color: white,
-    e404-title-shadow-color: transparent,
+    e404-color: $yellow,
+    e404-title-color: $red,
+    e404-title-shadow-color: $yellow,
 
     /* 'alert' shortcode */
+/* TODO */
     alert-info-background-color: lighten(blue, 30%),
     alert-info-text-color: black,
     alert-info-border-color: blue,
@@ -217,6 +238,5 @@ $root: (
 
     /* custom variables (external to theme) */
     /* hide side image */
-    sidedata-display: none,
-    sidedata-image: none,
+    sidedata-image: url(../images/jamaica-flag.jpg),
 );

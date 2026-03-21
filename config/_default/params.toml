@@ -108,8 +108,7 @@ sidebarListRight = [ "-", "tags", "categories", "series", "search" ] #TODO
 #sidebarTaxonomyLeft = [ "-", "bio" ] #TODO
 sidebarTaxonomyRight = [ "-", "tags", "categories", "series", "search" ] #TODO
 #sidebarSearchLeft = [ "-", "bio" ] #TODO
-#sidebarSearchRight = [ "-", "bio" ] #TODO
-sidebarSearchRight = [ "-", "recent" ] #TODO
+sidebarSearchRight = [ "-", "tags", "categories", "series" ]
 
 #disableSidebarLeft = false # Default: false
 #disableSidebarRight = false # Default: false

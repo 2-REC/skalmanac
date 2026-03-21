@@ -1,21 +1,39 @@
-$vintage: (
+/* main colors */
+$black: #0f0f0f;
+$white: #f1f1f1;
+
+$blue: #0c1565;
+$red: #a82437;
+$dark-purple: #461659;
+$purple: #a3209a;
+$yellow: #f3ba24;
+$light-blue: #3094c6;
+
+/* TODO: keep? */
+$turquoise: #b0c7c6;
+$green: #047200;
+$pink: #ff6188;
+
+$thirdwave: (
     /* fonts */
     title-font: ("SuperComic", sans-serif),
     content-font: ("CourierPrime", serif),
 
     /* global/general */
-    link: #FFD866,
-    link-hover: #FF6188,
-    hr-color: #595B5C,
+    link: $purple,
+    link-hover: $red,
+    hr-color: $purple,
 
-    selection-color: #FCFCFA,
-    selection-background-color: #FF6188,
+    selection-color: $white,
+    selection-background-color: $pink,
 
-    backdrop-background-color: #212121,
-    body-background-color: #2D2A2E,
-    body-color: #FCFCFA,
+/*    backdrop-background-color: $yellow,*/
+    backdrop-background-color: $light-blue,
+    body-background-color: $turquoise,
+    body-color: $black,
 
     /* 'button' shortcode */
+/* TODO? */
     button-default-color: black,
     button-default-hover-color: black,
     button-default-background-color: darken(white, 15%),
@@ -29,27 +47,29 @@ $vintage: (
     button-primary-border-color: darken(white, 15%),
     button-primary-border-hover-color: white,
 
+/* TODO? */
     custom-scrollbar-foreground-color: #888,
     custom-scrollbar-background-color: #eee,
 
-    footer-color: #bdbdbd,
-    footer-background-color: #009900,
-    footer-link-color: lighten(#bdbdbd, 15%),
-    footer-link-hover-color: lighten(#bdbdbd, 30%),
-    footer-hr-color: lighten(#bdbdbd, 15%),
+    footer-color: $black,
+/*    footer-background-color: $purple,*/
+    footer-background-color: $red,
+    footer-link-color: $yellow,
+    footer-link-hover-color: $white,
+    footer-hr-color: $black,
 
-    gtt-color: #bdbdbd,
-    gtt-hover-color: #82aaff,
-    gtt-background-color: #009900,
-    gtt-background-hover-color: lighten(#009900, 5%),
+    gtt-color: $purple,
+    gtt-hover-color: $white,
+    gtt-background-color: $white,
+    gtt-background-hover-color: $pink,
 
-    figcaption-color: #bdbdbd,
-    figcaption-background-color: black,
+    figcaption-color: $black,
+    figcaption-background-color: $white,
 
-    meta-color: #FCFCFA,
+    meta-color: $red,
 
     /* taxonomies */
-    taxo-title-color: #bdbdbd,
+    taxo-title-color: $blue,
     taxo-active-color: #bdbdbd,
     taxo-num-color: #FCFCFA,
     taxo-num-background-color: #212121,
@@ -72,9 +92,9 @@ $vintage: (
     sidebar-li-hover-color: lighten(#FCFCFA, 15%),
 
     /* sidebar toc */
-    toc-title-color: #90a4ae,
-    toc-label-color: #727072,
-    toc-label-active-color: lighten(#727072, 15%),
+    toc-title-color: $blue,
+    toc-label-color: $purple,
+    toc-label-active-color: $dark-purple,
 
     /* sidebar bio */
     bio-color: black,
@@ -83,11 +103,15 @@ $vintage: (
     bio-social-icon-hover-color: lighten(#bdbdbd, 20%),
 
     /* navigation bar (top) */
-    navbar-background-color: #009900,
+/*    navbar-background-color: #009900,*/
+    navbar-background-color: $yellow,
     navbar-border-bottom-color: #4e4e4e,
-    navbar-title-color: #FCFCFA,
-    navbar-title-hover-color: #FFD866,
-    navbar-title-active-color: #FF6188,
+/*    navbar-title-color: #FCFCFA,*/
+    navbar-title-color: $red,
+/*    navbar-title-hover-color: #FFD866,*/
+    navbar-title-hover-color: $blue,
+/*    navbar-title-active-color: #FF6188,*/
+    navbar-title-active-color: $dark-purple,
     navbar-border-top-color: #424242,
     navbar-menu-item-hover-background-color: lighten(#009900, 5%),
     navbar-menu-item-hover-color: #FFD866,
@@ -111,17 +135,17 @@ $vintage: (
     featured-button-hover-color: white,
 
     /* breadcrumb (path) */
-    breadcrumb-background-color: #009900,
-    breadcrumb-item-color: #FCFCFA,
-    breadcrumb-item-active-color: #bdbdbd,
-    breadcrumb-item-hover-color: #FFD866,
+    breadcrumb-background-color: $red,
+    breadcrumb-item-color: $yellow,
+    breadcrumb-item-active-color: $dark-purple,
+    breadcrumb-item-hover-color: $blue,
 
     /* single post */
     single-hr-background-color: #595B5C,
     single-blockquote-border-color: #FCFCFA,
-    single-header-title-color: #FCFCFA,
-    single-contents-title-color: #aed581,
-    single-contents-subtitle-color: #FCFCFA,
+    single-header-title-color: $blue,
+    single-contents-title-color: $dark-purple,
+    single-contents-subtitle-color: $purple,
 
     toc-header-background-color: #009900,
     toc-header-background-hover-color: #424242,
@@ -152,7 +176,13 @@ $vintage: (
     terms-series-color: #EA9C77,
     terms-len-color: #727072,
 
-    /* search page */
+    /* search */
+    pagefind-ui-text: $red, /* search icon + clear text */
+    pagefind-ui-background: $white, /* search bar */
+    pagefind-ui-border: $black, /* search bar */
+    pagefind-ui-font: ("Roboto", serif),
+
+    /* browse */
     switch-background-color: #009900,
     switch-button-color: #FCFCFA,
     switch-active-color: #FF6188,

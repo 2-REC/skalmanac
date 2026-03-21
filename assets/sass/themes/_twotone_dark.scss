@@ -17,7 +17,7 @@ $twotone_dark: (
     content-font: ("Archivo", serif),
 
     /* global/general */
-    link: $pure-white, 
+    link: $pure-white,
     link-hover: $light-burgundy,
     hr-color: $pure-white,
 
@@ -167,14 +167,20 @@ $twotone_dark: (
     terms-series-color: $pure-white,
     terms-len-color: $pure-white,
 
-    /* search page */
+    /* search */
+    pagefind-ui-text: $light-burgundy, /* search icon + clear text */
+    pagefind-ui-background: $white, /* search bar */
+    pagefind-ui-border: $black, /* search bar */
+    pagefind-ui-font: ("Roboto", serif),
+
+    /* browse */
     switch-background-color: $pure-white,
     switch-button-color: $pure-black,
     switch-active-color: $pure-white,
 
     /* pagination */
-    pagination-background-color: $pure-black,
-    pagination-number-color: $pure-white,
+    pagination-background-color: $pure-white,
+    pagination-number-color: $pure-black,
     pagination-number-hover-color: $light-burgundy,
     pagination-number-active-color: $light-burgundy,
 /* TODO: unused...? => check code in 'pagination' */
