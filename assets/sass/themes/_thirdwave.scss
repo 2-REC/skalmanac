@@ -196,7 +196,7 @@ $thirdwave: (
 /*    pagination-disabled-color: yellow,*/
 
     tiles-mask-background-color: rgba(0, 0, 0, 0.7),
-    tiles-background-color: rgba(0, 0, 0, 0.7),
+    tiles-background-color: $yellow,
 
     gallery-title-color: #FCFCFA,
     gallery-title-shadow-color: lighten(#009900, 5%),

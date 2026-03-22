@@ -1,6 +1,6 @@
 # TODO: remove comments and 'default', only keep in theme's file (in 'exampleSite')
 #logoImage = "" # E.g.: "/logo/logo.png"
-#logoText = "The Ska Exploration Project"
+logoText = "Skalmanac"
 logoType = "short" # short (square image), long (rectangular images)
 description = "Ska et cetera"
 custom_css = []
@@ -206,7 +206,7 @@ enableBusuanzi = false
   #TODO: clean what don't want/use.
   email = "your@email.com" #TODO: Add specific email for 'ska-etc' (create new one)
   facebook = "http://facebook.com/" #TODO: add facebook page for 'ska-etc'
-  #twitter = "" #TODO: want?
+  #twitter = ""
   #instagram = "" #TODO: create ska-etc on instagram?
   #youtube = "" #TODO: create ska-etc on youtube?
   #pinterest = "" #TODO: create ska-etc on pinterest?
@@ -229,7 +229,7 @@ enableBusuanzi = false
 #  color = "#36465D"
 [[share]]
   name = "twitter"
-  color = "#1DA1F2"
+  color = "#000000"
   username = "twitter_user" #TODO: ?
 [[share]]
   name = "whatsapp"
