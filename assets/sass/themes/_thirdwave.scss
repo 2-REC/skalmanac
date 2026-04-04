@@ -86,14 +86,15 @@ $thirdwave: (
     social-icon-color: #bdbdbd,
     social-icon-hover-color: lighten(#bdbdbd, 20%),
 
-    sidebar-title-color: #aed581,
-    sidebar-title-hover-color: lighten(#aed581, 15%),
-    sidebar-li-color: #FCFCFA,
-    sidebar-li-hover-color: lighten(#FCFCFA, 15%),
+    sidebar-title-color: $blue,
+    sidebar-title-hover-color: $red,
+    sidebar-li-color: $purple,
+    sidebar-li-hover-color: $red,
 
     /* sidebar toc */
     toc-title-color: $blue,
     toc-label-color: $purple,
+    toc-label-hover-color: $red,
     toc-label-active-color: $dark-purple,
 
     /* sidebar bio */
